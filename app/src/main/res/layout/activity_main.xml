@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoundaryClasses.ActivitiesClasses.MainActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/background3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@drawable/corner_modal"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/textAppName"
+            android:textSize="40sp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:textColor="#111"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:textStyle="italic"
+            android:text='@string/initial_text'
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorApp"
+            android:text="@string/login"
+            android:background="@drawable/corner_transparent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:text="@string/register"
+            android:background="@drawable/corner_color"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_marginBottom="-40dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/heart" />
+
+    <include
+        android:visibility="gone"
+        layout="@layout/loading_layout"/>
+
+</RelativeLayout>

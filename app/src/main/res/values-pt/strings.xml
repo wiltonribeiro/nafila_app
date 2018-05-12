@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NaFila</string>
+
+    <string name="select_image">SELECIONAR IMAGEM</string>
+    <string name="hint_name">Nome. Ex: Will Neto</string>
+    <string name="update">ATUALIZAR</string>
+    <string name="edit_profile">EDITAR PERFIL</string>
+    <string name="line">FILA</string>
+    <string name="search">pesquisar</string>
+    <string name="see_line">ver minha fila</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="password_forgot">Esqueceu a senha ?</string>
+    <string name="login">LOGIN</string>
+    <string name="or_login_with">OU ENTRE COM</string>
+    <string name="initial_text">"Entre na fila de quem você gosta, participe dessa ideia"</string>
+    <string name="register">CADASTRAR - SE</string>
+    <string name="watch_video">ver propaganda ( +5 pontos)</string>
+    <string name="video_description">Pontos podem ser usados para visualizar alguém da sua fila, ou descobrir quantas pessoa há na fila do seu/sua amada</string>
+    <string name="news">NOTÍCIAS</string>
+    <string name="change_password">alterar senha</string>
+    <string name="terms_use">termos de uso e serviço</string>
+    <string name="contact">contacte-nos</string>
+    <string name="log_out">sair</string>
+    <string name="delete_account">apagar conta</string>
+    <string name="news_layout">Notícias</string>
+    <string name="news_description">Aqui estarão todas as notícias relacionadas ao seu perfil e a sua fila.</string>
+    <string name="hint_username">Nome de usuário. Ex: neto_will</string>
+    <string name="password_confirm">Confirmar Senha</string>
+    <string name="see_someone">VAMOS DESCOBRIR ALGUÉM DA SUA FILA ?</string>
+    <string name="see_someone_description">As filas são sempre anônimas, caso você deseje descobrir alguém da sua fila, basta trocar pontos para vizualizar.</string>
+    <string name="get_in_line">ENTRAR NA FILA</string>
+    <string name="see_line_other">DESBLOQUEAR FILA (- 20 Pts)</string>
+    <string name="match">Deu Match !</string>
+    <string name="match_description_part1">Você e </string>
+    <string name="match_description_part2"> estão na fila um do outro. Que tal tirar um print dessa imagem e mandar para o seu crush ?</string>
+    <string name="search_by_user">Pesquisar por usuário:</string>
+    <string name="search_hint">Ex: neto_will</string>
+    <string name="no_user_found">Nenhum usuário encontrado</string>
+    <string name="nothing_here">Nada ?</string>
+    <string name="nothing_here_description">Nenhuma notícia registrada</string>
+    <string name="select_country">Selecionar País</string>
+
+    <string name="alert_name">Preencha o nome corretamente</string>
+    <string name="no_change">Nenhuma modificação verificada</string>
+    <string name="alert_user_name">Preencha corretamente o nome de usuário</string>
+    <string name="in_my_line"> pessoas na minha fila</string>
+    <string name="line_where_im"> filas onde estou</string>
+    <string name="alert_email">Preencha o email corretamente</string>
+    <string name="short_password">Senha muito curta</string>
+    <string name="alert_password">Senha deve possuir mais de 5 caracteres</string>
+    <string name="alert_user_name2">Nome de usuário deve possuir mais de 4 caracteres</string>
+    <string name="alert_user_name3">Não pode haver espaços em branco no nome de usuário ou aspas</string>
+    <string name="alert_user_name4">Nome de usuário já cadastrado</string>
+    <string name="alert_confirm_password">As senhas não coincidem</string>
+    <string name="alert_image">Necessário selecionar imagem</string>
+    <string name="alert_country">Necessário selecionar um país</string>
+    <string name="alert_noone_line">Você não possui ninguém na sua fila</string>
+    <string name="all_already_seen">Todos da fila já vistos</string>
+    <string name="miss_points">Pontos Insuficientes</string>
+    <string name="count_other_line"> pessoas na fila do(a) </string>
+    <string name="out_in_line">sair da fila</string>
+
+    <string name="notification_follower_titile">Uma nova pessoa em sua fila</string>
+    <string name="notification_follower_text">Temos novidades, deseja descobrir seu novo pretendente ?</string>
+    <string name="loading">CARREGANDO DADOS</string>
+    <string name="notification_macth_titile">Você tem um macth com </string>
+    <string name="notification_match_text">Match é quando uma pessoa entra na fila de alguém que antes já tinha entrado na da outra. Esperamos que uma história comece a partir daí.</string>
+
+    <string name="no_one_line">VOCÊ AINDA NÃO POSSUI NINGUÉM NA FILA</string>
+    <string name="all_seen">"TODOS DA FILA JÁ VISTOS"</string>
+    <string name="show_up1">DESCOBRIR (-</string>
+    <string name="show_up2">Pts)</string>
+    <string name="this_in_line">Este usuário está em sua fila</string>
+    <string name="points">PONTOS</string>
+    <string name="next_update">Disponível na próxima atualização</string>
+    <string name="video_error">Falha ao buscar propaganda. Tente novamente mais tarde</string>
+
+
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoundaryClasses.ActivitiesClasses.HomeActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/background3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:fastScrollEnabled="true"
+            android:persistentDrawingCache="scrolling"
+            android:scrollingCache="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_margin="15dp"
+                    android:background="@drawable/corner_modal"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <ImageView
+                            android:id="@+id/imgUserProfile"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/in_love"
+                            android:layout_width="match_parent"
+                            android:layout_height="230dp" />
+
+                        <RelativeLayout
+                            android:padding="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:visibility="gone"
+                                android:id="@+id/alertNews"
+                                android:layout_marginLeft="35dp"
+                                android:layout_marginStart="35dp"
+                                android:background="@drawable/circle"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp" />
+
+                            <Button
+                                android:id="@+id/btnMenu"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/menu"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp" />
+
+                        </RelativeLayout>
+
+                        <Button
+                            android:id="@+id/btnEditProfile"
+                            android:layout_marginTop="-15dp"
+                            android:layout_below="@+id/imgUserProfile"
+                            android:layout_centerHorizontal="true"
+                            android:paddingHorizontal="10dp"
+                            android:textColor="#f8f8f8"
+                            android:background="@drawable/corner_color"
+                            android:text="@string/edit_profile"
+                            android:textSize="13sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_margin="15dp"
+                        android:background="@drawable/corner_modal"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textUserName"
+                            android:textStyle="bold"
+                            android:textSize="40sp"
+                            android:textAlignment="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/textUserId"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="11sp"
+                            android:text="@string/line"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <View
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:layout_width="70dp"
+                            android:layout_height="1dp"
+                            android:background="@android:color/darker_gray"/>
+
+                        <LinearLayout
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:id="@+id/listFollowers"
+                                android:layout_weight="50"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:id="@+id/listFollowing"
+                                android:layout_weight="50"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnSearch"
+                        android:textSize="12sp"
+                        android:background="@drawable/corner_modal"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="50"
+                        android:layout_width="match_parent"
+                        android:text="@string/search"
+                        android:layout_height="40dp" />
+
+                    <Button
+                        android:id="@+id/btnPoints"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/corner_modal"
+                        android:layout_weight="50"
+                        android:layout_width="match_parent"
+                        android:text="@string/see_line"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_search"
+        android:visibility="gone"/>
+
+    <include
+        layout="@layout/loading_layout"
+        android:visibility="gone"/>
+
+</RelativeLayout>

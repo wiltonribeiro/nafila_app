@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    tools:context=".BoundaryClasses.ActivitiesClasses.MenuActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:fastScrollEnabled="true"
+        android:persistentDrawingCache="scrolling"
+        android:scrollingCache="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnClose"
+                android:background="@drawable/close"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textPoints"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/colorApp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnGetPoints"
+                android:textColor="#fff"
+                android:background="@drawable/corner_color"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:text="@string/watch_video"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:text="@string/video_description"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_width="70dp"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/alertNews"
+                    android:layout_alignRight="@id/btnNews"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/circle"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp" />
+
+                <Button
+                    android:id="@+id/btnNews"
+                    android:layout_margin="10dp"
+                    android:textColor="#202020"
+                    android:text="@string/news"
+                    android:background="@android:color/transparent"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnChangePassword"
+                android:textColor="#202020"
+                android:text="@string/change_password"
+                android:background="@android:color/transparent"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:textColor="#202020"
+                android:text="@string/terms_use"
+                android:background="@android:color/transparent"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnContact"
+                android:layout_marginTop="5dp"
+                android:textColor="#202020"
+                android:text="@string/contact"
+                android:background="@android:color/transparent"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnLogOut"
+                android:layout_marginTop="5dp"
+                android:textColor="#202020"
+                android:text="@string/log_out"
+                android:background="@android:color/transparent"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnDeleteAccount"
+                android:layout_marginTop="50dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="@string/delete_account"
+                android:background="@android:color/transparent"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:visibility="gone"
+        layout="@layout/loading_layout"/>
+
+</RelativeLayout>

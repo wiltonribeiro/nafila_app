@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "864581016266",
+    "firebase_url": "https://nafila-app.firebaseio.com",
+    "project_id": "nafila-app",
+    "storage_bucket": "nafila-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864581016266:android:a9cd67a2dda0f392",
+        "android_client_info": {
+          "package_name": "com.will.nafila"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864581016266-u4jobdo8c590i5jugcv0ld9dg6ic7230.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.will.nafila",
+            "certificate_hash": "9aa5e8c7d27729ce06e628f768ee7686900fdc14"
+          }
+        },
+        {
+          "client_id": "864581016266-9t1a9i8rm4so6rtggj3q5cdi3ph72o1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADRUnetex86FirjvSX3zHjqfF4xyPwcD8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864581016266-9t1a9i8rm4so6rtggj3q5cdi3ph72o1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

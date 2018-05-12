@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoundaryClasses.ActivitiesClasses.LoginActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/background3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:background="@drawable/corner_modal"
+        android:layout_centerVertical="true"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/mail"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+            <EditText
+                android:id="@+id/inputEmail"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:hint="@string/email"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/padlock"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+            <EditText
+                android:id="@+id/inputPassword"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:hint="@string/password"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:gravity="end"
+            android:layout_marginTop="5dp"
+            android:textSize="11sp"
+            android:text="@string/password_forgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="@string/login"
+            android:textColor="#fff"
+            android:background="@drawable/corner_color"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+        <LinearLayout
+
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_weight="30"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
+                android:background="#ddd"/>
+
+            <TextView
+                android:layout_weight="30"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:text="@string/or_login_with"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_weight="30"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#ddd"/>
+        </LinearLayout>
+
+        <!-- Simulate Button -->
+        <LinearLayout
+            android:id="@+id/btnGoogle"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/corner_google"
+            android:layout_height="45dp">
+
+            <ImageView
+                android:src="@drawable/google_icon"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:textAlignment="center"
+                android:text="Google Plus"
+                android:textColor="#fff"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnFacebook"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/corner_facebook"
+            android:layout_height="45dp">
+
+            <ImageView
+                android:src="@drawable/facebook_icon"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:textAlignment="center"
+                android:text="Facebook"
+                android:textColor="#fff"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include
+        android:visibility="gone"
+        layout="@layout/loading_layout"/>
+
+</RelativeLayout>
